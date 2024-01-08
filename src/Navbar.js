@@ -6,7 +6,9 @@ function Navbar() {
   return (
     <div id="navbar" className="Navbar">
       <div className="Logo"> <img src={logo3} alt="logo" height={60} width={80}/></div>
+
     </div>
+
   );
 }
 

@@ -11,11 +11,15 @@ function App() {
         <div className='Logo'>
             <img src={logo} alt="logo img" height={60} width={80}/>
         </div>
+          <div class="Tabs">
+              <div className="Tab">about</div>
+              <div className="Tab">projects</div>
+              <div className="Tab">contact</div>
+          </div>
         <div> Kelly Gu </div>
         <div className='Tagline'> student | computer scientist | leader | artist </div>
       </header>
-      <div className="Border"></div>
-      <div className="Main">
+      <div className="About">
         <div>
           <h1>about us</h1>
         </div>
@@ -24,7 +28,8 @@ function App() {
         <AboutCard layout="left" content={["Other than transferring risk, risk exposures can be transformed and suppressed by processes that are:",<ul><li>Dynamically correcting as Puts and Calls have offsetting risk profiles</li><li>Numerically convergent by the law of large numbers</li></ul>, "By suppressing uncertainties, we can achieve risk neutrality and zeroing cost."]} header="we leverage alternative risk processes"></AboutCard>
         <AboutCard layout="right" content={["We can construct a large-scale profit engine by:",<ul><li>Selling options selectively to generate smart revenue in a trillion dollar market</li><li>Employing risk-suppressive processes</li><li>Harvesting the conservative profit target</li></ul>, "Thus managing risk better with the streamlined execution as a commodities trader."]} header="to generate sustainable profitability"></AboutCard>
       </div>
-      <div className="Border"></div>
+      <div className="Projects"></div>
+        <div className="Contact"></div>
     </div>
   );
   
