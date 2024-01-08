@@ -1,0 +1,19 @@
+.AboutCard {
+    min-height: 30vh;
+    /* background-color: white; */
+    margin: 10vmin;
+    
+}
+.About-header {
+    font-family: Garamond, serif;
+    /* font-size: calc(90px + 2vmin); */
+    font-size: 10vmin;
+    text-align: left;
+    padding: 5vmin;
+}
+
+.About-content {
+    font-size: calc(5px + 2vmin);
+    text-align: left;
+    padding: 5vmin;
+}

@@ -1,0 +1,22 @@
+.Navbar {
+  min-height: 10vh;
+  z-index: 3;
+}
+
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: -10vh;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+
+}
+
+.Logo {
+  text-align: left;
+  font-size: calc(30px + 2vmin);
+  color: #f2e6ce;
+  font-family: Garamond, serif;
+  margin: 20px;
+}
