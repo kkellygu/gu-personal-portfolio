@@ -12,16 +12,16 @@ function App() {
             <img src={logo} alt="logo img" height={60} width={80}/>
         </div>
           <div class="Tabs">
-              <div className="Tab">about</div>
-              <div className="Tab">projects</div>
-              <div className="Tab">contact</div>
+              <div className="Tab">About</div>
+              <div className="Tab">Projects</div>
+              <div className="Tab">Contact</div>
           </div>
         <div> Kelly Gu </div>
         <div className='Tagline'> student | computer scientist | leader | artist </div>
       </header>
       <div className="About">
         <div>
-          <h1>about us</h1>
+          <h1>About Me</h1>
         </div>
         <AboutCard layout="left" content="We treat selling options as a market risk insurance policy. When someone sells an option, they are essentially agreeing to take on the risk of the underlying asset moving in a certain direction. In exchange for taking on this risk, the seller receives a premium from the buyer of the option. This is similar to an insurance contract." header="we are a market risk insurance firm"></AboutCard>
         <AboutCard layout="right" content="Over 20 years of experience in Mortgage-Backed Securities (MBS) guarantee, credit risk transfer through reinsurance, mortgage pipeline hedging, asset and liabilities management, and risk modeling for large financial institutions." header="built on extensive experience in financial insurance and reinsurance"></AboutCard>

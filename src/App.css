@@ -33,7 +33,6 @@
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url('assets/background.jpeg');
 }
 
-
 .Tagline {
   font-size: calc(9px + 2vmin);
   opacity: .75;
@@ -48,8 +47,18 @@
 
 .About {
   min-height: 100vh;
-  color: #445a09;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(30px + 2vmin);
+  font-family: Garamond, serif;
+  color: #1e1a2e;
   margin-top: 15vh;
+}
+.About h1{
+  font-size: 35px;
+  margin-top: -5vh;
 }
 
 .Projects{
@@ -61,7 +70,7 @@
   font-size: calc(30px + 2vmin);
   color: #fffbf0;
   font-family: Garamond, serif;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url('assets/background.jpeg');
+  background-color: black; /*remove this line later on*/
 }
 .Contact{
   min-height: 100vh;
@@ -72,7 +81,7 @@
   font-size: calc(30px + 2vmin);
   color: #fffbf0;
   font-family: Garamond, serif;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url('assets/background.jpeg');
+  background-color: white; /*remove this line later on*/
 }
 
 .Logo {
