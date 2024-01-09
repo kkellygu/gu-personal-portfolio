@@ -1,19 +1,57 @@
 .AboutCard {
-    min-height: 30vh;
+    min-height: 5vh;
     /* background-color: white; */
-    margin: 10vmin;
-    
+    margin: 5vmin;
 }
-.About-header {
-    font-family: Garamond, serif;
-    /* font-size: calc(90px + 2vmin); */
-    font-size: 10vmin;
-    text-align: left;
-    padding: 5vmin;
+.row{
+    display:flex;
+    flex-direction: row;
+}
+.column{
+    flex:1;
+}
+.text-column{
+    order:1;
+}
+.image-column{
+    order:2;
 }
 
-.About-content {
-    font-size: calc(5px + 2vmin);
+.About-image{
+    max-width:60vmin;
+    height: auto;
+    margin-top:-20vmin;
+    margin-left:10vmin;
+}
+.About p{
+    font-size: calc(8px + 2vmin);
     text-align: left;
-    padding: 5vmin;
+    margin-left:4vmin;
+    padding: 1vmin;
+    width:100%;
+}
+.resumeButton{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    text-decoration: none;
+    height: 5vmin;
+    background-color: rgb(255, 214, 219);
+    border-radius: 2vmin;
+    padding: 0.5vmin;
+    margin-top:7vmin;
+    margin-left:40vmin;
+}
+
+.resumeButton span{
+    font-size: 29px;
+    color: #8a3b65;
+    text-align: center;
+}
+.resumeButton:hover{
+    background-color: #c99eb3;
+
+
+
 }
