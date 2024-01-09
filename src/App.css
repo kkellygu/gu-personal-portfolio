@@ -39,8 +39,27 @@
   font-weight: 100;
   margin-top: 1vh;
   font-family: Garamond, serif;
+  overflow: hidden; /* Hide overflow to create a typing effect */
+
+}
+.Tagline::before {
+  content: '';
+  display: inline-block;
+  vertical-align: bottom;
+  width: 0;
+  height: 100%;
+  background-color: black; /* Adjust the cursor color */
+  animation: typing 3s steps(40, end) infinite; /* Adjust the speed of typing */
 }
 
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
 .App-link {
   color: #445a09;
 }
@@ -53,12 +72,11 @@
   justify-content: center;
   font-size: calc(30px + 2vmin);
   font-family: Garamond, serif;
-  color: #1e1a2e;
-  margin-top: 15vh;
+  color: #8a3b65;
+  margin-top: 10vh;
 }
 .About h1{
   font-size: 35px;
-  margin-top: -5vh;
 }
 
 .Projects{
