@@ -35,31 +35,52 @@
 
 .Tagline {
   font-size: calc(9px + 2vmin);
-  opacity: .75;
-  font-weight: 100;
-  margin-top: 1vh;
-  font-family: Garamond, serif;
-  overflow: hidden; /* Hide overflow to create a typing effect */
-
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .2em solid white; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+  animation: typing 10s steps(40, end) 0s infinite,
+  blink-caret .75s step-end infinite;
+  margin-top: 3vmin;
 }
-.Tagline::before {
-  content: '';
-  display: inline-block;
-  vertical-align: bottom;
-  width: 0;
-  height: 100%;
-  background-color: black; /* Adjust the cursor color */
-  animation: typing 3s steps(40, end) infinite; /* Adjust the speed of typing */
-}
-
 @keyframes typing {
   from {
-    width: 0;
+    width: 0
   }
-  to {
-    width: 100%;
+  35% {
+    width: 43%;
+  }
+  80% {
+    width: 43%
+  }
+  100% {
+    width: 0
   }
 }
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent
+  }
+  50% {
+    border-color: white;
+  }
+}
+/*.Tagline::after {*/
+/*  content: '|'; !* Cursor symbol *!*/
+/*  width: 100%;*/
+/*  background-color: white;*/
+/*  font-size: 2rem;*/
+/*  opacity: 1;*/
+/*  animation: blink 0.3s infinite alternate; !* Blinking animation *!*/
+/*  color: white;*/
+/*}*/
+
+/*@keyframes blink {*/
+/*  100% {*/
+/*    opacity: 0;*/
+/*  }*/
+/*}*/
 .App-link {
   color: #445a09;
 }
