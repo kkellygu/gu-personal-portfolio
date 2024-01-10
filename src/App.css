@@ -66,21 +66,6 @@
     border-color: white;
   }
 }
-/*.Tagline::after {*/
-/*  content: '|'; !* Cursor symbol *!*/
-/*  width: 100%;*/
-/*  background-color: white;*/
-/*  font-size: 2rem;*/
-/*  opacity: 1;*/
-/*  animation: blink 0.3s infinite alternate; !* Blinking animation *!*/
-/*  color: white;*/
-/*}*/
-
-/*@keyframes blink {*/
-/*  100% {*/
-/*    opacity: 0;*/
-/*  }*/
-/*}*/
 .App-link {
   color: #445a09;
 }
