@@ -23,6 +23,11 @@
     margin-top:-20vmin;
     margin-left:10vmin;
 }
+.About-image:hover{
+    filter: drop-shadow(0px 0px 20px #8a3b65);
+    transition: filter 0.5s ease-in-out;
+
+}
 
 .About p{
     font-size: calc(8px + 2vmin);
@@ -48,7 +53,6 @@
     margin-top:7vmin;
     margin-left:40vmin;
     color:#8a3b65;
-
 }
 
 .resumeButton span{
@@ -59,7 +63,5 @@
     background-color: #8a3b65;
     color:rgb(255, 214, 219);
     border-color:rgb(255, 214, 219);
-    transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
-
-
+    transition: color .5s ease-in-out, background-color .5s ease-in-out, border-color .5s ease-in-out;
 }

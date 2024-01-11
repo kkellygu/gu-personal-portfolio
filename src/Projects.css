@@ -7,9 +7,10 @@
 }
 .Projects h1 {
     margin-top:12vmin;
+    color:#fffbf0;
 }
 .slider{
-    height:450px;
+    height:55vmin;
     left:0;
     display: flex;
     position: absolute;
@@ -18,19 +19,19 @@
 }
 
 .arrow{
-    height: 80px;
+    height: 10vmin;
     position: absolute;
     cursor: pointer;
 
 &.left{
-     right: 500px;
+     right: 60vmin;
      transform: rotate(-180deg);
      margin-bottom:20vmin;
 
  }
 &.right{
-     height:80px;
-     left: 500px;
+     height:10vmin;
+     left: 60vmin;
      margin-bottom:20vmin;
 
  }
@@ -40,15 +41,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left:-88vmin;
-    margin-right:70vmin;
+    margin-left:-89vmin;
+    margin-right:100vmin;
     margin-top:-10vmin;
     margin-bottom:10vmin;
 }
+.items:hover{
+    transition: box-shadow 0.5s ease-in-out;
+    box-shadow: 0px 0px 20px 10px #8a3b65;
+}
 .items{
-    width: 900px;
+    width: 100vmin;
     height: 100%;
-    background-color:white;
+    background-color:#fffbf0;
     border-radius: 20px;
     display:flex;
     align-items: center;
