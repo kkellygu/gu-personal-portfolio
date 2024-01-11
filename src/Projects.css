@@ -1,0 +1,123 @@
+.Projects{
+    background-color:rgb(254, 204, 209);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.Projects h1 {
+    margin-top:12vmin;
+}
+.slider{
+    height:450px;
+    left:0;
+    display: flex;
+    position: absolute;
+    transition: all 1s ease-in-out;
+    justify-content: center;
+}
+
+.arrow{
+    height: 80px;
+    position: absolute;
+    cursor: pointer;
+
+&.left{
+     right: 500px;
+     transform: rotate(-180deg);
+     margin-bottom:20vmin;
+
+ }
+&.right{
+     height:80px;
+     left: 500px;
+     margin-bottom:20vmin;
+
+ }
+}
+.portContainer{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:-88vmin;
+    margin-right:70vmin;
+    margin-top:-10vmin;
+    margin-bottom:10vmin;
+}
+.items{
+    width: 900px;
+    height: 100%;
+    background-color:white;
+    border-radius: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftTwo{
+    flex: 4;
+    height:80%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    overflow:visible;
+}
+/* Project titles */
+.leftTwo h2{
+    display:flex;
+    font-size: 28px;
+    margin-top:-5vmin;
+    text-shadow: 2px 2px 2px rgba(254, 204, 209,1);
+    color:#8a3b65;
+}
+/* Project descriptions */
+.leftTwo p{
+    font-size:15px;
+    color:#8a3b65;
+    margin-top: -2vmin;
+}
+/* dont quite remember what this is for, but i think i want to change it to link to my github!*/
+.leftTwo span{
+    font-size: 13px;
+    font-weight: 900;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #8a3b65;
+    margin-bottom:4vmin;
+}
+.leftContainer{
+    width: 85%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* circle around an icon (maybe add in the future...)
+.imgContainer2{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:-10px;
+}
+*/
+
+.right{
+    flex: 8;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.right img{
+    width: 400px;
+    transform: rotate(-10deg);
+    background-color: black;
+}
+
+
+
