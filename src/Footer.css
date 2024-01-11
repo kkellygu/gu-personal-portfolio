@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+.Footer {
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  font-size: calc(30px + 2vmin);
+  color: #f2e6ce;
+  font-family: Garamond, serif;
+  background-color: #374f2f;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  justify-content: left;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.Header {
+  font-size: calc(10px + 2vmin);
+}
+
+.Disclaimer {
+  padding: 5vw;
+  text-align: left;
+}
+
+p {
+  font-size: calc(5px + 1vmin);
+  font-weight: 10;
+  font-family: 'Quicksand', sans-serif;
+}

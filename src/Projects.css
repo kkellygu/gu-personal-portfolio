@@ -36,12 +36,16 @@
 
  }
 }
+.arrow:hover{
+    filter: drop-shadow(0px 0px 20px #8a3b65) saturate(200%);
+    transition: filter 0.5s ease-in-out;
+}
 .portContainer{
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left:-89vmin;
+    margin-left:-88vmin;
     margin-right:100vmin;
     margin-top:-10vmin;
     margin-bottom:10vmin;

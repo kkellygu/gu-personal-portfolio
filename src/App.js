@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import logo from './assets/logo3.PNG'
 import headshot from './assets/kgheadshot.PNG'
 import Projects from './Projects';
+import Gallery from  './Gallery';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <div class="Tabs">
               <div className="Tab">About</div>
               <div className="Tab">Projects</div>
+              <div className="Tab">Gallery</div>
               <div className="Tab">Contact</div>
           </div>
         <div> Kelly Gu </div>
@@ -34,6 +36,12 @@ function App() {
           </div>
           <Projects></Projects>
       </div>
+        <div className="Gallery">
+            <div>
+                <h1>Gallery</h1>
+            </div>
+            <Gallery></Gallery>
+        </div>
         <div className="Contact"></div>
         <div>stinky poo</div>
     </div>
