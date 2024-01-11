@@ -36,7 +36,7 @@ function AboutCard({content}) {
                                 you would like to chat!</p>
                         </div>
                         <a href={resume} download className='resumeButton'>
-                            <span>&nbsp;resume</span>
+                            <span>resume</span>
                         </a>
                     </div>
                     <div className="column image-column">

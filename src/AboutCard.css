@@ -23,6 +23,7 @@
     margin-top:-20vmin;
     margin-left:10vmin;
 }
+
 .About p{
     font-size: calc(8px + 2vmin);
     text-align: left;
@@ -38,20 +39,27 @@
     text-decoration: none;
     height: 5vmin;
     background-color: rgb(255, 214, 219);
-    border-radius: 2vmin;
-    padding: 0.5vmin;
+    border-radius: 1.5vmin;
+    border: 3px solid #8a3b65;
+    padding-left:1vmin;
+    padding-right:1vmin;
+    padding-top:0.5vmin;
+    padding-bottom:0.5vmin;
     margin-top:7vmin;
     margin-left:40vmin;
+    color:#8a3b65;
+
 }
 
 .resumeButton span{
     font-size: 29px;
-    color: #8a3b65;
-    text-align: center;
+    text-decoration: none;
 }
 .resumeButton:hover{
-    background-color: #c99eb3;
-
+    background-color: #8a3b65;
+    color:rgb(255, 214, 219);
+    border-color:rgb(255, 214, 219);
+    transition: color .2s ease-in-out, background-color .2s ease-in-out, border-color .2s ease-in-out;
 
 
 }

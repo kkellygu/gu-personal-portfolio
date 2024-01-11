@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   background-color: #fffbf0;
+  overflow:hidden;
 }
 .Tabs {
   display: flex;
@@ -85,6 +86,9 @@
   font-size: 35px;
 }
 
+.Projects h1{
+  font-size: 35px;
+}
 .Projects{
   min-height: 100vh;
   display: flex;
@@ -94,7 +98,7 @@
   font-size: calc(30px + 2vmin);
   color: #fffbf0;
   font-family: Garamond, serif;
-  background-color: black; /*remove this line later on*/
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)), url('assets/background.jpeg');
 }
 .Contact{
   min-height: 100vh;
@@ -105,7 +109,6 @@
   font-size: calc(30px + 2vmin);
   color: #fffbf0;
   font-family: Garamond, serif;
-  background-color: white; /*remove this line later on*/
 }
 
 .Logo {

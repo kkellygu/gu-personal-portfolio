@@ -4,6 +4,8 @@ import './App.css';
 import Navbar from './Navbar';
 import logo from './assets/logo3.PNG'
 import headshot from './assets/kgheadshot.PNG'
+import Projects from './Projects';
+
 function App() {
   return (
     <div className="App">
@@ -26,8 +28,14 @@ function App() {
         </div>
         <AboutCard></AboutCard>
       </div>
-      <div className="Projects"></div>
+      <div className="Projects">
+          <div>
+              <h1>Recent Projects</h1>
+          </div>
+          <Projects></Projects>
+      </div>
         <div className="Contact"></div>
+        <div>stinky poo</div>
     </div>
   );
   
