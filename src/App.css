@@ -115,17 +115,17 @@
   color: #8a3b65;
   font-family: Garamond, serif;
 }
-.Contact{
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(30px + 2vmin);
-  color: #fffbf0;
-  font-family: Garamond, serif;
-  background-color: black;
-}
+/*.Contact{*/
+/*  min-height: 100vh;*/
+/*  display: flex;*/
+/*  flex-direction: column;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  font-size: calc(30px + 2vmin);*/
+/*  color: #fffbf0;*/
+/*  font-family: Garamond, serif;*/
+/*  background-color: black;*/
+/*}*/
 
 .Logo {
   position: absolute;

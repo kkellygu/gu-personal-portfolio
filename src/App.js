@@ -6,6 +6,7 @@ import logo from './assets/logo3.PNG'
 import headshot from './assets/kgheadshot.PNG'
 import Projects from './Projects';
 import Gallery from  './Gallery';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -43,7 +44,7 @@ function App() {
             <Gallery></Gallery>
         </div>
         <div className="Contact"></div>
-        <div>stinky poo</div>
+        <Footer></Footer>
     </div>
   );
   
