@@ -21,6 +21,9 @@ export const leadershipPage = [
     // { id: 3, title: "advocacy",
     //     img: chinafestImg,
     // },
+    // { id: 4, title: "big/little system",
+    //     img: chinafestImg,
+    // },
 ];
 export const guzhengPage = [
     { id: 1, title: "butterfly lovers ft. hana wang",
@@ -54,8 +57,7 @@ export const dancePage = [
 export const videoPage = [
     { id: 1, title: "1SE 16th year",
         img: sixteen,
-        desc:"the highlights of my 16th rotation around the sun :)",
-        link: "https://youtu.be/cgHpFvNu81U?si=aabkPZ47HgLDJSrl"
+        desc:"the highlights of my 16th rotation around the sun :)"
     },
     { id: 2, title: "1SE 2022",
         img: twozerotwotwo,
