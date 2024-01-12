@@ -2,6 +2,7 @@
   text-align: center;
   background-color: #fffbf0;
   overflow:hidden;
+  scroll-behavior:smooth;
 }
 .App-header {
   min-height: 100vh;
