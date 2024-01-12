@@ -26,7 +26,7 @@
 
 }
 .Gallery ul li:hover{
-    background-color: rgba(138,59,101,0.4);
+    filter: drop-shadow(0px 0px 20px #8a3b65) saturate(250%);
     transition: background-color 0.5s ease-in;
 }
 /*the container for all the images*/
