@@ -2,6 +2,7 @@ import './Projects.css';
 import { useState } from "react";
 import React from "react";
 import arrow from './assets/image.png'
+import portfoliopic from './assets/portfoliopic.PNG'
 
 
 export default function Projects(){
@@ -11,6 +12,7 @@ export default function Projects(){
             id:"1",
             title:"Personal Portfolio",
             desc:"An independently developed personal portfolio web application. Built with React, CSS, and JavaScript, this dynamic and visually captivating interface features content from various aspects of my life. With a primary focus on my computer science journey, explore the different dimensions of my life's experiences.",
+            img: portfoliopic,
         },
         /*{
             id:"2",

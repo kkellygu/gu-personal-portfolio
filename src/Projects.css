@@ -123,9 +123,8 @@
     overflow: hidden;
 }
 .right img{
-    width: 400px;
+    width: 450px;
     transform: rotate(-10deg);
-    background-color: black;
 }
 
 
