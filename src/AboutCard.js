@@ -35,7 +35,7 @@ function AboutCard({content}) {
                                 check out my resume. Please do not hesitate to reach out to me anytime if
                                 you would like to chat!</p>
                         </div>
-                        <a href={resume} download className='resumeButton'>
+                        <a href={resume} className='resumeButton'>
                             <span>resume</span>
                         </a>
                     </div>
