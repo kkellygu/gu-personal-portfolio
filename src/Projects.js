@@ -3,7 +3,7 @@ import { useState } from "react";
 import React from "react";
 import arrow from './assets/image.png'
 import portfoliopic from './assets/portfoliopic.PNG'
-
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export default function Projects(){
     const [currentSlide, setCurrentSlide] = useState(0)
@@ -12,6 +12,7 @@ export default function Projects(){
             id:"1",
             title:"Personal Portfolio",
             desc:"An independently developed personal portfolio web application. Built with React, CSS, and JavaScript, this dynamic and visually captivating interface features content from various aspects of my life. With a primary focus on my computer science journey, explore the different dimensions of my life's experiences.",
+            link: "https://github.com/kkellygu/gu-personal-portfolio",
             img: portfoliopic,
         },
         /*{
@@ -59,7 +60,9 @@ export default function Projects(){
                                     <p>
                                         {d.desc}
                                     </p>
-                                    <span>Projects</span>
+                                    {d.link && <a href={d.link} target="_blank" rel="noopener noreferrer" className='githubButton'>
+                                        <i className="fab fa-github"></i> <span>repo</span>
+                                    </a>}
                                 </div>
                             </div>
                             <div className="right">

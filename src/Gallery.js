@@ -50,7 +50,7 @@ export default function Gallery(){
                         <img src={d.img} alt="whoop" />
                         <h3>{d.title}</h3>
                         <h4>{d.desc}</h4>
-                        {d.link && <a href={d.link} target="_blank">watch now!</a>}
+                        {d.link && <a href={d.link} target="_blank" rel="noopener noreferrer">watch now!</a>}
                     </div>
                 ))}
             </div>

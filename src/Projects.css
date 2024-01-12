@@ -17,6 +17,31 @@
     transition: all 1s ease-in-out;
     justify-content: center;
 }
+.githubButton{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    text-decoration: none;
+    background-color: rgb(255, 214, 219);
+    border-radius: 1vmin;
+    padding:1vmin;
+    border: 1.5px solid #8a3b65;
+    color:#8a3b65;
+    margin-left: 8vmin;
+}
+.githubButton:hover{
+    background: linear-gradient(270deg, #8a3b65,midnightblue);
+    color:white;
+}
+.githubButton i{
+    margin-right:7px;
+    font-size:20px;
+}
+.githubButton span{
+    font-size: 20px;
+    text-decoration: none;
+}
 
 .arrow{
     height: 10vmin;
@@ -85,15 +110,15 @@
     color:#8a3b65;
     margin-top: -2vmin;
 }
-/* dont quite remember what this is for, but i think i want to change it to link to my github!*/
-.leftTwo span{
-    font-size: 13px;
-    font-weight: 900;
-    text-decoration: underline;
-    cursor: pointer;
-    color: #8a3b65;
-    margin-bottom:4vmin;
-}
+/*!* dont quite remember what this is for, but i think i want to change it to link to my github!*!*/
+/*.leftTwo span{*/
+/*    font-size: 13px;*/
+/*    font-weight: 900;*/
+/*    text-decoration: underline;*/
+/*    cursor: pointer;*/
+/*    color: #8a3b65;*/
+/*    margin-bottom:4vmin;*/
+/*}*/
 .leftContainer{
     width: 85%;
     height: 90%;
