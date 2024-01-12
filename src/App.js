@@ -1,9 +1,6 @@
 import AboutCard from './AboutCard';
 import './App.css';
-//import Footer from './Footer'
 import Navbar from './Navbar';
-import logo from './assets/logo3.PNG'
-import headshot from './assets/kgheadshot.PNG'
 import Projects from './Projects';
 import Gallery from  './Gallery';
 import Footer from './Footer';
@@ -19,6 +16,14 @@ function App() {
 
                 <div> Kelly Gu </div>
                 <div className='Tagline'> student | computer scientist | leader | artist </div>
+                <div className ="social-icons">
+                <a href="https://github.com/kkellygu" target="_blank" rel="noopener noreferrer" className='github'>
+                    <i className="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/kellygu3610/" target="_blank" rel="noopener noreferrer" className='linkedin'>
+                    <i className="fab fa-linkedin"></i>
+                </a>
+                </div>
             </header>
 
             <div id='about' className="About">
