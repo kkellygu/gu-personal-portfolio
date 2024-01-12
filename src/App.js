@@ -6,47 +6,48 @@ import logo from './assets/logo3.PNG'
 import headshot from './assets/kgheadshot.PNG'
 import Projects from './Projects';
 import Gallery from  './Gallery';
+import Footer from './Footer';
 
 function App() {
-  return (
-    <div className="App">
-      <Navbar></Navbar>
-      <header className="App-header">
-        <div className='Logo'>
-            <img src={logo} alt="logo img" height={60} width={80}/>
-        </div>
-          <div class="Tabs">
-              <div className="Tab">About</div>
-              <div className="Tab">Projects</div>
-              <div className="Tab">Gallery</div>
-              <div className="Tab">Contact</div>
-          </div>
-        <div> Kelly Gu </div>
-        <div className='Tagline'> student | computer scientist | leader | artist </div>
-      </header>
-      <div className="About">
-        <div>
-          <h1>About Me</h1>
-        </div>
-        <AboutCard></AboutCard>
-      </div>
-      <div className="Projects">
-          <div>
-              <h1>Recent Projects</h1>
-          </div>
-          <Projects></Projects>
-      </div>
-        <div className="Gallery">
-            <div>
-                <h1>Gallery</h1>
+    return (
+        <div className="App">
+            <Navbar></Navbar>
+            <header className="App-header">
+                <div className='Logo'>
+                    <img src={logo} alt="logo img" height={60} width={80}/>
+                </div>
+                <div class="Tabs">
+                    <div className="Tab">About</div>
+                    <div className="Tab">Projects</div>
+                    <div className="Tab">Gallery</div>
+                    <div className="Tab">Contact</div>
+                </div>
+                <div> Kelly Gu </div>
+                <div className='Tagline'> student | computer scientist | leader | artist </div>
+            </header>
+            <div className="About">
+                <div>
+                    <h1>About Me</h1>
+                </div>
+                <AboutCard></AboutCard>
             </div>
-            <Gallery></Gallery>
+            <div className="Projects">
+                <div>
+                    <h1>Recent Projects</h1>
+                </div>
+                <Projects></Projects>
+            </div>
+            <div className="Gallery">
+                <div>
+                    <h1>Gallery</h1>
+                </div>
+                <Gallery></Gallery>
+            </div>
+            <div className="Contact"></div>
+            <Footer></Footer>
         </div>
-        <div className="Contact"></div>
-        <div>stinky poo</div>
-    </div>
-  );
-  
+    );
+
 }
 
 export default App;
