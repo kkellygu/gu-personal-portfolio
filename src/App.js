@@ -7,43 +7,39 @@ import headshot from './assets/kgheadshot.PNG'
 import Projects from './Projects';
 import Gallery from  './Gallery';
 import Footer from './Footer';
+import React, { useState } from 'react';
+
 
 function App() {
+    const[onClick,setOnClick]=useState(false);
     return (
         <div className="App">
-            <Navbar></Navbar>
-            <header className="App-header">
-                <div className='Logo'>
-                    <img src={logo} alt="logo img" height={60} width={80}/>
-                </div>
-                <div class="Tabs">
-                    <div className="Tab">About</div>
-                    <div className="Tab">Projects</div>
-                    <div className="Tab">Gallery</div>
-                    <div className="Tab">Contact</div>
-                </div>
+            <Navbar onClick={onClick} setOnClick={setOnClick}></Navbar>
+            <header id='home' className="App-header">
+
                 <div> Kelly Gu </div>
                 <div className='Tagline'> student | computer scientist | leader | artist </div>
             </header>
-            <div className="About">
+
+            <div id='about' className="About">
                 <div>
                     <h1>About Me</h1>
                 </div>
                 <AboutCard></AboutCard>
             </div>
-            <div className="Projects">
+            <div id="projects" className="Projects">
                 <div>
                     <h1>Recent Projects</h1>
                 </div>
                 <Projects></Projects>
             </div>
-            <div className="Gallery">
+            <div id="gallery" className="Gallery">
                 <div>
                     <h1>Gallery</h1>
                 </div>
                 <Gallery></Gallery>
             </div>
-            <div className="Contact"></div>
+            <div id="contact" className="Contact"></div>
             <Footer></Footer>
         </div>
     );

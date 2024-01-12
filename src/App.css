@@ -3,25 +3,6 @@
   background-color: #fffbf0;
   overflow:hidden;
 }
-.Tabs {
-  display: flex;
-  justify-content: center; /* Center the tabs horizontally */
-  padding: 10px;
-  position: fixed; /* Use 'fixed' to keep the header fixed at the top of the viewport */
-  top: 0; /* Position at the top */
-  width: 100%; /* Ensure the header spans the entire width */
-  z-index: 100; /* Set a high z-index to ensure the tabs appear above other content */
-}
-.Tab {
-  color: #fff; /* Set the text color of the tabs */
-  padding: 15px 80px; /* Add padding to the tabs for spacing */
-  cursor: pointer; /* Change the cursor to indicate interactivity */
-  transition: background-color 0.5s; /* Add a smooth transition effect */
-  font-size: 30px;
-}
-.Tab:hover {
-  font-weight: bold;
-}
 .App-header {
   min-height: 100vh;
   display: flex;
