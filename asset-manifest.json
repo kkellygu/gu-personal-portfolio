@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gu-personal-portfolio/static/css/main.fb4c2449.css",
-    "main.js": "/gu-personal-portfolio/static/js/main.f94d33d5.js",
+    "main.js": "/gu-personal-portfolio/static/js/main.e938f5ca.js",
     "static/js/787.e23612c4.chunk.js": "/gu-personal-portfolio/static/js/787.e23612c4.chunk.js",
     "static/media/pink.JPG": "/gu-personal-portfolio/static/media/pink.ee8dbd90aa52aefd0488.JPG",
     "static/media/chinafest.JPG": "/gu-personal-portfolio/static/media/chinafest.bd6b3799f1149189d3df.JPG",
@@ -12,6 +12,7 @@
     "static/media/ck.jpg": "/gu-personal-portfolio/static/media/ck.12dcf517a6921f5406dc.jpg",
     "static/media/arojas.jpg": "/gu-personal-portfolio/static/media/arojas.a6971a79dcebd98524a0.jpg",
     "static/media/rem.jpg": "/gu-personal-portfolio/static/media/rem.551c7443fca3933c6cd6.jpg",
+    "static/media/travelBuddy.png": "/gu-personal-portfolio/static/media/travelBuddy.e7f1968360c33f3d5b29.png",
     "static/media/fa-solid-900.ttf": "/gu-personal-portfolio/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
     "static/media/jas.jpg": "/gu-personal-portfolio/static/media/jas.b78e9e8e61d94ff95acf.jpg",
     "static/media/portfoliopic.PNG": "/gu-personal-portfolio/static/media/portfoliopic.60fc184b48b8127746c8.PNG",
@@ -27,11 +28,11 @@
     "static/media/fa-v4compatibility.woff2": "/gu-personal-portfolio/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/gu-personal-portfolio/index.html",
     "main.fb4c2449.css.map": "/gu-personal-portfolio/static/css/main.fb4c2449.css.map",
-    "main.f94d33d5.js.map": "/gu-personal-portfolio/static/js/main.f94d33d5.js.map",
+    "main.e938f5ca.js.map": "/gu-personal-portfolio/static/js/main.e938f5ca.js.map",
     "787.e23612c4.chunk.js.map": "/gu-personal-portfolio/static/js/787.e23612c4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb4c2449.css",
-    "static/js/main.f94d33d5.js"
+    "static/js/main.e938f5ca.js"
   ]
 }
